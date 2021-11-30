@@ -1,0 +1,11 @@
+{
+  "name": "roboterblock",
+  "version": "1.0.0",
+  "description": "My simple Gutenberg Block",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build"
+  },
+  "author": "René Backhaus",
+  "license": "ISC"
+}
