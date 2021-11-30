@@ -1,11 +1,15 @@
 {
-  "name": "roboterblock",
+  "name": "roboterberg",
   "version": "1.0.0",
-  "description": "My simple Gutenberg Block",
+  "description": "Roboterberg is my personal test plugin for exploring the WordPress Gutenberg Editor",
   "main": "build/index.js",
   "scripts": {
-    "build": "wp-scripts build"
+    "build": "wp-scripts build",
+    "build:custom": "wp-scripts build src/sidebar.js src/index.js --output-path=build"
   },
   "author": "René Backhaus",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.2"
+  }
 }

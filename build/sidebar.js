@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.element;!function(r){const{registerPlugin:n}=r.plugins,{PluginSidebar:t}=r.editPost;n("roboterberg-sidebar",{render:function(){return(0,e.createElement)(t,{name:"roboterberg-sidebar",title:"René Roboters Sidebar",icon:"smiley"},"Yolo Welt 🤖⛰️")}})}(window.wp)}();
