@@ -31,3 +31,12 @@ add_action('init', function () {
         $asset_file['version']
     );
 });
+
+add_action('init', function () {
+    register_meta('post', 'roboterberg_plugin_rofl', [
+            'type' => 'string',
+            'single' => true,
+            'show_in_rest' => true,
+        ]
+    );
+});
