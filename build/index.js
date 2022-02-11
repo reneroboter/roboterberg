@@ -1,1 +1,0 @@
-!function(){"use strict";var e=window.wp.element;(0,window.wp.blocks.registerBlockType)("roboterberg/simple",{title:"René Roboters Block",icon:"smiley",category:"widgets",edit:()=>(0,e.createElement)("div",null,"🤖⛰️"),save:()=>(0,e.createElement)("div",null,"🤖⛰️")})}();
