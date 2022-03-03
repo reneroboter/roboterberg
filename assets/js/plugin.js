@@ -1,4 +1,4 @@
-import ReneRoboterTextControl from 'components/Input/textcontrol'
+import ReneRoboterTextControl from './components/Input/textcontrol'
 
 (function (wp) {
 

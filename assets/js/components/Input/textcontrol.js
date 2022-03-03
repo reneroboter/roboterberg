@@ -6,7 +6,7 @@ const {compose} = wp.compose;
 export default compose(
     withDispatch(function (dispatch, props) {
         return {
-            setMetaValue: function (value) {
+            setYoloStuff: function (value) {
                 dispatch('core/editor').editPost({meta: {[props.metaKey]: value}});
             }
         }
@@ -24,7 +24,7 @@ export default compose(
             label={props.label}
             value={props.metaValue}
             onChange={(content) => {
-                props.setMetaValue(content)
+                props.setYoloStuff(content)
             }}
         />
     );

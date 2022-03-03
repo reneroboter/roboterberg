@@ -16,7 +16,7 @@ services:
       - 3307:3306
 
   wordpress:
-    image: wordpress:5.8
+    image: wordpress:5.8-php8.0-apache
     volumes:
       - ./:/var/www/html/wp-content/plugins/roboterberg
     depends_on:

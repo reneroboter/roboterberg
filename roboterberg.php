@@ -7,11 +7,11 @@
  */
 
 add_action('init', function () {
-    $asset_file = include(plugin_dir_path(__FILE__) . 'build/index.asset.php');
+    $asset_file = include(plugin_dir_path(__FILE__) . 'dist/index.asset.php');
 
     wp_register_script(
         'roboterberg-block',
-        plugins_url('build/index.js', __FILE__),
+        plugins_url('dist/index.js', __FILE__),
         $asset_file['dependencies'],
         $asset_file['version']
     );
@@ -22,11 +22,11 @@ add_action('init', function () {
 
 
 add_action('init', function () {
-    $asset_file = include(plugin_dir_path(__FILE__) . 'build/sidebar.asset.php');
+    $asset_file = include(plugin_dir_path(__FILE__) . 'dist/sidebar.asset.php');
 
     wp_enqueue_script(
         'roboterberg-sidebar',
-        plugins_url('build/sidebar.js', __FILE__),
+        plugins_url('dist/plugin.js', __FILE__),
         ['wp-edit-post', 'wp-element', 'wp-components', 'wp-plugins', 'wp-data'],
         $asset_file['version']
     );
