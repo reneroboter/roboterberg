@@ -22,7 +22,7 @@ add_action('init', function () {
 
 
 add_action('init', function () {
-    $asset_file = include(plugin_dir_path(__FILE__) . 'dist/sidebar.asset.php');
+    $asset_file = include(plugin_dir_path(__FILE__) . 'dist/plugin.asset.php');
 
     wp_enqueue_script(
         'roboterberg-sidebar',

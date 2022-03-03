@@ -1,4 +1,5 @@
 import ReneRoboterTextControl from './components/Input/textcontrol'
+import icons from "../icons";
 
 (function (wp) {
 
@@ -10,7 +11,7 @@ import ReneRoboterTextControl from './components/Input/textcontrol'
     registerPlugin('roboterberg-sidebar', {
         render: function () {
             return (<Fragment>
-                <PluginSidebar name="roboterberg-sidebar" title="René Roboters Sidebar" icon="smiley">
+                <PluginSidebar name="roboterberg-sidebar" title="René Roboters Sidebar" icon={icons.circle}>
                     <PanelBody title="Wichtiges Zeugs" initialOpen={true}>
                         <ReneRoboterTextControl label="ROFL" metaKey="roboterberg_plugin_rofl"/>
                     </PanelBody>
