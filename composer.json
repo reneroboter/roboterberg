@@ -1,0 +1,5 @@
+{
+    "require": {
+        "humanmade/hm-gutenberg-tools": "^1.6"
+    }
+}

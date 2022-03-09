@@ -2,14 +2,19 @@
   "name": "roboterberg",
   "version": "1.0.0",
   "description": "Roboterberg is my personal test plugin for exploring the WordPress Gutenberg Editor",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "wp-scripts build",
-    "build:custom": "wp-scripts build assets/js/plugin.js assets/js/block/index.js --output-path=dist"
+    "build:custom": "wp-scripts build assets/js/plugin.js assets/js/block/index.js --output-path=dist",
+    "test:e2e": "wp-scripts test-e2e",
+    "wp-env": "wp-env"
   },
   "author": "René Backhaus",
   "license": "ISC",
   "devDependencies": {
+    "@wordpress/e2e-test-utils": "^6.0.2",
+    "@wordpress/env": "^4.2.2",
     "@wordpress/scripts": "^19.2.2"
-  }
+  },
+  "dependencies": {}
 }

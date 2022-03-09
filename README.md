@@ -26,6 +26,8 @@ Roboterberg is my personal test plugin for exploring the WordPress Gutenberg Edi
 * @https://wordpress.stackexchange.com/questions/305932/gutenberg-remove-add-blocks-with-custom-script
 * https://rudrastyh.com/gutenberg/custom-svg-icons.html#react_el
 * https://react-svgr.com/docs/webpack/
+* https://shelob9.github.io/testing-javascript-in-and-around-wordpress/presentation.pdf
+* https://www.liip.ch/en/blog/how-to-test-your-gutenberg-blocks
 
 
 HAVE FUN! 🎉
